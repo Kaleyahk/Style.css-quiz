@@ -1,0 +1,98 @@
+body {
+  background-color: yellow;
+}
+p {
+  color: Black;
+}
+
+h1 {
+  color: black;
+}
+
+p.Word  {
+  color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+.title {
+  color: black;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+#article-title {
+  font-family: cursive;
+}
+
+a[href*='florence'] {
+  color: brown;
+}
+
+a[href*='beijing'] {
+  color: brown;
+}
+
+a[href*='seoul'] {
+  color: brown;
+}
+
+a:hover {
+  color: black;
+}
+
+.heading-background {
+  background-color: green;
+}
+
+#publish-time {
+  color: black;
+}
+
+
+h5 {
+  color: black;
+   font-size: 18px;
+}
+
+.author-class {
+  color: black;
+}
+
+#author-id {
+  color: black;
+}
+
+h2.destination {
+  font-family: Tahoma;
+    background-color: pink;
+}
+
+.description.h5  {
+  font-family: Tahoma;
+  color: black;
+}
+
+li h4 {
+  color: black;
+}
+
+h4 {
+  color: black;
+}
+
+li,
+h5 {
+  font-family: monospace;
+    font-size: 14px;
+
+}
+ ul ::before {
+  content: "\2022";
+  color: orange;
+  font-weight: bold; 
+  width: 1em;
+  margin-left: -1.2em;
+}
+
